@@ -21,6 +21,7 @@
     --portfolio-article-text-color: #757575;
     --our-team-color:#F5F4FA;
     --header-border-color:#ECECEC;
+    --portfolio-images-border-color:#EEEEEE;
 }
 
 
@@ -267,4 +268,9 @@ width: 1200px;
 
 .portfolio-set{
     margin-right: -60px;
+}
+
+.portfolio-images-border{
+    border-bottom: 1px solid var(--portfolio-images-border-color);
+    
 }

@@ -36,6 +36,7 @@ body{
     text-align: center;
     width: 1600px;
     height: 600px;
+    justify-content: center;
 }
 
 .slider>[type="button"]{
@@ -64,11 +65,15 @@ body{
     text-decoration: none;
     display: inline-block;    
 }
+.text{
+    margin-top: -60px;
+}
 .text-list{
+    margin-left: 20px;
     list-style: none;
     text-decoration: none;
     display: inline-block;
-    width: 270px;
+    width: 260px;
     height: 75px;
     text-align: left;
 }
@@ -85,9 +90,13 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-align: center;
     color: var(--slider-text-color);
     text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 250px;
+    width: 700px;
 }
 
 .head-header{
@@ -95,13 +104,19 @@ body{
     width: 1600px;
     height: 80px;
     background-color:var(--header-color) ;
-    display: inline-block;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+
 }
 .nav-text{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     color: var(--nav-text-color);
+}
+.menu{
+    padding-right: 20px;
 }
 .nav-text .links:hover, .nav-text .links:focus {
     color: var(--links-color-hover);
@@ -126,9 +141,10 @@ body{
     line-height: 1.71;
     background-color: var(--footer-bg-color) ;
     color: var(--logo-footer-color);
+    padding-left: 100px;
+    padding-top: 20px;
     
 }
-
 
 .footer-contacts{
  list-style: none;
@@ -142,6 +158,8 @@ body{
  font-size: 36px;
  line-height: 1.16;
  text-align: center;
+ margin-top: -20px;
+ letter-spacing: 0.03em;
 }
 .our-team-heading{
     text-align: center;
@@ -161,7 +179,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 .article-text{
     font-size: 14px;
@@ -200,4 +218,31 @@ body{
 }
 .our-team-color{
     background-color: var(--our-team-color);
+}
+
+.container{
+width: 1200px;
+}
+.section{
+    padding: 94px 0;
+}
+.contacts{
+    
+    margin-right: -100px;
+    
+}
+
+.our-team{
+    display: flex;
+    align-content: center;
+    margin-left: -60px;
+    margin-bottom: -50px;
+}
+
+.our-team-margin{
+    margin-right: -60px;
+}
+
+.our-job-margin {
+    margin-right: 12px;
 }

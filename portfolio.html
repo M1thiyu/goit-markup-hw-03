@@ -2,34 +2,42 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <title>HW3</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
+    <title>HW1</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header class="head-header container">
-      <a class="links" href="index.html"
-        ><h3 class="logo"><span class="logo-color">Web</span>Studio</h3></a
-      >
-      <nav class="nav-text">
-        <ul>
-          <li class="poems menu"><a class="links" href="index.html">Agencja</a></li>
-          <li class="poems menu"><a class="links" href="portfolio.html">Portfolio</a></li>
-          <li class="poems menu"><a class="links" href="">Kontakt</a></li>
+  <body class="portfolio-bg-color">
+    <header class="head-header">
+      <div class="container header-set">
+        <div class="header-set">
+          <a class="links" href="index.html"
+            ><h3 class="logo"><span class="logo-color">Web</span>Studio</h3></a
+          >
+        </div>
+        <div class="header-set">
+          <nav class="nav-text">
+            <ul>
+              <li class="poems"><a class="links" href="index.html">Agencja</a></li>
+              <li class="poems nav-margin"><a class="links" href="portfolio.html">Portfolio</a></li>
+              <li class="poems nav-margin"><a class="links" href="">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header-set">
+          <li class="poems">
+            <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="poems nav-margin">
+            <a class="header-contacts" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
-      </nav>
-      <a class="header-contacts contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="header-contacts" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
     <main>
-      <section class="container section portfolio-button">
+      <section>
         <h6 hidden>a</h6>
         <ul>
           <li class="poems">
@@ -49,10 +57,10 @@
           </li>
         </ul>
       </section>
-      <section class="container section">
-        <ul class="portfolio-images">
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+      <section>
+        <ul>
+          <li class="poems">
+            <figure>
               <img
                 src="images/img9.jpg"
                 alt="laptop wyswietlajacy strone"
@@ -65,8 +73,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img8.jpg" alt="dwoje koszykarzy" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Grafika New Orlean vs Golden Star</h4>
@@ -74,8 +82,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img
                 src="images/img7.jpg"
                 alt="plakat restauracji Seafood"
@@ -88,8 +96,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img6.jpg" alt="słuchawek" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Projekt Prime</h4>
@@ -97,8 +105,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img5.jpg" alt="2 pudełeka" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Projekt Boxes</h4>
@@ -106,8 +114,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img
                 src="images/img4.jpg"
                 alt="monitor ze stroną internetowa"
@@ -120,8 +128,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img3.jpg" alt="otwarty magazyn" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Magazyn Limited Edition</h4>
@@ -129,8 +137,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img2.jpg" alt="zawieszka" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Project LAB</h4>
@@ -138,8 +146,8 @@
               </figcaption>
             </figure>
           </li>
-          <li class="poems portfolio-set">
-            <figure class="portfolio-images-border">
+          <li class="poems">
+            <figure>
               <img src="images/img1.jpg" alt="laptop z dłońmi" width="370" height="294" />
               <figcaption class="portfolio-article-heading">
                 <h4>Growing Business</h4>
@@ -150,15 +158,17 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-set container">
-      <a class="links" href="index.html"
-        ><h3 class="logo"><span class="logo-color">Web</span>Studio</h3></a
-      >
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <p>
-        <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
-      </p>
-      <a class="footer-contacts" href="tel:+48111111111">+48 111 111 111</a>
+    <footer class="footer-set">
+      <div class="container">
+        <a class="links" href="index.html"
+          ><h3 class="logo"><span class="logo-color">Web</span>Studio</h3></a
+        >
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <p>
+          <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
+        </p>
+        <a class="footer-contacts" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </footer>
   </body>
 </html>

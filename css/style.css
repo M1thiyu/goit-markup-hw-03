@@ -138,7 +138,7 @@ body {
 }
 .text{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 0px;
     
 }
@@ -269,6 +269,7 @@ body {
 .our-job-set{
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
 }
 .our-team-images-background{
     background-color: var(--our-team-images-background);
@@ -280,6 +281,7 @@ body {
 .our-team-set{
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
 }
 .our-team-poems{
     margin-left: -50px;
@@ -288,6 +290,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: -200px;
+    padding-left: 0;
 }
 .portfolio-button-set{
     margin-left: 10px;
@@ -297,10 +300,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
+    padding-left: 0;
 }
 .portfolio-images-set{
-    margin-left: -150px;
+    margin-left: -60px;
 }
 
 .portfolio-images-border{

@@ -284,7 +284,7 @@ body {
     padding-left: 0;
 }
 .our-team-poems{
-    margin-left: -50px;
+    margin-left: -40px;
 }
 .portfolio-button{
     display: flex;
@@ -303,7 +303,8 @@ body {
     padding-left: 0;
 }
 .portfolio-images-set{
-    margin-left: -60px;
+    margin-left: -40px;
+    margin-right: -40px;
 }
 
 .portfolio-images-border{
